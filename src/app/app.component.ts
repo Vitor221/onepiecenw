@@ -7,7 +7,7 @@ import { LoginComponent } from './components/pages/login/login.component';
   standalone: true,
   imports: [
     RouterOutlet,
-    LoginComponent
+    LoginComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
