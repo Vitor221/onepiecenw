@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 import { NgHeroiconsModule } from '@dimaslz/ng-heroicons';
@@ -7,7 +8,7 @@ import { NgHeroiconsModule } from '@dimaslz/ng-heroicons';
   standalone: true,
   imports: [
     NgOptimizedImage,
-    NgHeroiconsModule,
+    NgHeroiconsModule
   ],
   templateUrl: './register.component.html',
   styleUrl: './register.component.scss'
