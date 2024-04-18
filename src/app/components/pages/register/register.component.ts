@@ -8,7 +8,8 @@ import { NgHeroiconsModule } from '@dimaslz/ng-heroicons';
   standalone: true,
   imports: [
     NgOptimizedImage,
-    NgHeroiconsModule
+    NgHeroiconsModule,
+    RouterModule
   ],
   templateUrl: './register.component.html',
   styleUrl: './register.component.scss'
